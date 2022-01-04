@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+}
+
+.productContainer {
+    display: flex;
+}
+
+h2 {
+    margin: 20px 0 5px 20px;
+}
+
+.partitionLine {
+    background-color: black;
+    height: 0.4vh;
+    margin-bottom: 30px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.listItem {
+    border: 2px solid rgb(49, 49, 173);
+    padding: 20px;
+    margin: 0 10px 20px 20px;
+    width: 30vw;
+    list-style-type: none;
+}
+
+.addButton {
+    background-color: rgb(49, 49, 173);
+    margin: 20px 0 10px 0;
+    height: 3vh;
+    text-align: center;
+}
+
+.removeButton {
+    background-color: rgb(49, 49, 173);
+    height: 3vh;
+    text-align: center;
+}
+
+.button:hover {
+    cursor: pointer;
+}
